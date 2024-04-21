@@ -1,0 +1,44 @@
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 5;
+}
+.container{
+    max-width: 1320px;
+    padding:  20px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+  }
+
+
+.nav-link {
+display: flex;
+gap: 35px;
+align-items: center;
+    a{
+
+        text-decoration: none;
+        color: black;
+    }
+    button{
+        color:  #F58A07;
+        border: 1px solid #F58A07;
+        background-color:#FEF3E6 ;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+    button:hover{
+        background-color: #F58A07;
+        color: #FEF3E6;
+        transition: .3s;
+    }
+}

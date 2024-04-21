@@ -1,0 +1,79 @@
+.about-hero{
+    padding: 108px 0;
+}
+.about-content{
+    display: flex;
+    gap: 46px;
+    align-items: center;
+    h1{
+        width: 618px;
+        font-family: Poppins;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 72px;
+        letter-spacing: -0.03em;
+    }
+    p{
+        width: 510px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        color: #5B5B5B;
+        margin: 30px 0;
+    }
+    button{
+        padding: 10px 20px;
+        background: #F58A07;
+        color: #fff;
+        border: 1px solid #F58A07;
+        border-radius: 20px;
+    }
+    button:hover{
+        background-color: #fff;
+        color: #F58A07;
+        transition: .3s;
+    }
+}
+
+.about-parag{
+    display: flex;
+    justify-content: space-between;
+    h1{
+        width: 587px;
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.03em;
+    }
+    p{
+        width: 620px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;        
+    }
+}
+.about-cards{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-card{
+    width: 264px;
+height: 192px;
+h1{
+    color: #F58A07;
+}
+h2{
+    margin: 16px 0;
+}
+p{
+    width: 264px;
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+}
+}
